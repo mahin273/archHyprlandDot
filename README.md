@@ -27,9 +27,7 @@ https://github.com/prasanthrangan/hyprdots/assets/106020512/c995699a-299c-4a8e-9
 
 ## Installation
 
-The installation script is made for Arch, but **may** work on some Arch based distros with **systemd**.
-For Debian, please refer **Senshi111**'s version [here](https://github.com/Senshi111/debian-hyprland-hyprdots).
-Checkout **Ksk**'s [video](https://www.youtube.com/watch?v=mb8h1-LB9K0) for full installation walkthrough.
+
 
 > [!IMPORTANT]
 > Install script will auto-detect nvidia card and install nvidia-dkms drivers for your kernel.
@@ -43,7 +41,7 @@ After a minimal Arch install (with grub and systemd), clone and execute -
 
 ```shell
 pacman -Sy git
-git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/Hyprdots
+git clone --depth 1 https://github.com/mahin273/archHyprlandDot ~/Hyprdots
 cd ~/Hyprdots/Scripts
 ./install.sh
 ```
